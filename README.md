@@ -13,6 +13,8 @@ PHP开发，配合webman的请求类获取请求数据
 2.  PHP版本>=7.2
 3.  在webman的项目根目录中config/middleware.php添加全局中间件
 ```
+<?php
+
 return [
     // 全局中间件
     '' => [
